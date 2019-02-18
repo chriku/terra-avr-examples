@@ -3,9 +3,7 @@ Triple="avr-none-elf";
 CPU="attiny2313";
 }
 local C = terralib.includecstring ([[
-#include <stdint.h>
 #include <avr/io.h>
-#include <util/delay_basic.h>
 ]],{"-I","/usr/lib/avr/include/"},avr)
 
 local ret={}

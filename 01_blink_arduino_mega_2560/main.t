@@ -1,7 +1,3 @@
-local C = terralib.includecstring [[
-#include <stdint.h>
-]]
-
 local f=16*1000*1000 -- CPU Frequency
 
 local delay=macro(function(ms) -- Not perfect, but good enough for blinking
